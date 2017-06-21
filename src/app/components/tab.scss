@@ -1,0 +1,27 @@
+@import './../styles/mixin.scss';
+
+.top{
+  @include wh(100%, 2.5rem);
+  line-height: 2.5em;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+}
+.tab{
+  ul{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 14px;
+    li{
+      text-align: center;
+    }
+    .active{
+      color: cyan;
+    }
+  }
+  
+}
